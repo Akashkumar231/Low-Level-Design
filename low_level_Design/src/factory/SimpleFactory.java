@@ -1,7 +1,5 @@
 package factory;
 
-import com.sun.jdi.InvalidTypeException;
-
 abstract class Burger{
     public abstract void  prepareBurger();
 }
@@ -25,8 +23,6 @@ class GarlicBurger extends Burger{
 }
 
 class BurgerFactory {
-
-
 
     public Burger createBurger(String burgerType){
         if (burgerType.equalsIgnoreCase("basicburger")){
