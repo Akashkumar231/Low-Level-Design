@@ -19,7 +19,7 @@ class HeightAbility implements DecoratorPattern {
         this.iCharacter = character;
     }
   public   String getAbility(){
-       return iCharacter.getAbility()+" Height Ability.";
+       return iCharacter.getAbility()+ " Height Ability.";
     }
 }
 class FireAbility implements DecoratorPattern{
