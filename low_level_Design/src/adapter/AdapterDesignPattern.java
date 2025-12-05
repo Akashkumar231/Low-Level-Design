@@ -27,8 +27,6 @@ class XML_DATA_PROVIDER{
 
 }
 
-
-
 public class AdapterDesignPattern {
     public static void main(String [] args){
 
